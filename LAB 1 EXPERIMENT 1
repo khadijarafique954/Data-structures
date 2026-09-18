@@ -1,0 +1,10 @@
+import java.util.scanner;
+public class InputExample{
+    public static void main(string[] args){
+        sacnner sc= new scanner(system.in);
+        system.out.print("Enter a number:");
+        int num=sc.nextIn();
+        system.out.println("You entered:"+num);
+    }
+
+}
